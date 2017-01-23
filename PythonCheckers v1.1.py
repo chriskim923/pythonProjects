@@ -61,7 +61,7 @@ def isThreatened(canvas):
     down = +2
     right = +2
     left = -2
-    rowList = [ ] #collects row&col to which a red piece must go
+    rowList = [ ] #collects row & col to which a red piece must go
     colList = [ ]
 #Now searching for spots where a blue piece would land if it were to jump a red piece
     for rowClicked in range(rows):
