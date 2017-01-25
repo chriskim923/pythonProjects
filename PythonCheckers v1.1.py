@@ -213,7 +213,6 @@ def hardMode(canvas):
         moveCheckerPiece(canvas, rowClickedBefore, colClickedBefore, rowClicked, colClicked)
         mustTake = canvas.data["mustTake"]
 
-
 def doRandomMove(canvas):
     checkerBoard = canvas.data["checkerBoard"]
     mustTake = canvas.data["mustTake"]
